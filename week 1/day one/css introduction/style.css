@@ -1,0 +1,101 @@
+body {
+    background-image: url(https://www.microsoft.com/en-us/research/uploads/prod/2019/11/Programming-Languages-and-Software-Engineering-page-header_1920x720_1.31.2024.png);
+    background-size: cover;
+}
+
+h1 {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    text-decoration: underline;
+
+}
+#ner {
+    background-color: yellow;
+    border: 2px solid red;
+    height: 50px;
+    width:300px;
+    padding: 20px;
+    margin-left: 40%;
+   
+}
+#yox {
+    background-color: grey;
+    border:blue solid 2px;
+    height: 50px;
+    width: 300px;
+    padding: 20px;
+    margin-left: 40%;
+}
+#zen {
+    margin-left: 35%;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: underline;
+    background-color: grey;
+    border:2px solid black;
+}
+#zen2 {
+    margin-left: 35%;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: underline;
+    background-color: yellow;
+    border:2px solid black;
+    
+}
+
+h2 {
+    width: 500px;
+    height: 30px;
+    text-align: center;
+}
+#step1 {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;   
+}
+#important {
+    border: solid black 3px;
+    border-style: double;
+}
+#important2 {
+    border: black solid 3px;
+    border-color: yellow;
+    border-width: 1px;
+}
+#center {
+    margin-left: 10%;
+    margin-right: 50%;
+}
+#paragraph {
+    background-color: rgb(90, 180, 180);
+    height: 60px;
+    font-family: "Quicksand", sans-serif;
+    border: solid red;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+h3 {
+    text-decoration: underline;
+    margin-left: 2%;
+    background-color: grey;
+    margin-right: 85%;
+}
+#box-sizing {
+    box-sizing: content-box;
+    width:20%;
+    border: solid rgb(130, 55, 55);
+    border-width: 5px;
+    padding: 30px;
+}
+#box-sizing {
+    box-sizing: border-box;
+    border: solid, blue, 20px;
+    padding: 30px;
+}

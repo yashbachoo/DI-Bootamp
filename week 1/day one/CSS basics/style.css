@@ -1,0 +1,32 @@
+#wrap {
+    border: dotted;
+    border-width: 5px;
+    margin-left: 420px;
+    margin-right: 400px;
+    padding:20px;
+    background-color: rgb(240, 221, 197);
+}
+#back {
+    background-color: burlywood;
+}
+h1 {
+    border: dotted;
+    border-width: 5px;
+    margin-left: ;
+}
+#para {
+    text-align: left;
+}
+#brag {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    list-style: none;  
+    line-height: 2em;    
+}
+#initial {
+    font-family: "Solway", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 42px;
+}

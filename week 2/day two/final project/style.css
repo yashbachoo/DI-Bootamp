@@ -1,0 +1,163 @@
+body {
+    background-image: url(mike.jpg), url(background2.jpg), url(mike.jpg);
+    background-size: 2000px 800px, 2000px 1150px, 2000px 1000px;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: top, center,bottom;
+}
+.theheader {
+    text-align: center;
+    font-size: 30px;
+    font-family: "Graduate", serif;
+
+}
+
+.headbackground {
+    list-style-type: none;
+    height: 60px;
+    background-color: black;
+    width: auto;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    margin: -30px;
+    padding: 0px;
+}
+ul, .button {   
+    color: white;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    text-align: center;
+    padding-top: 25px;
+    font-family: "Graduate", serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+img {
+    transition: all 1s;
+    height: 200px;
+    width: 300px;
+    border-radius: 20px;
+    padding-right: 20px;
+    float: left;
+    padding-right: 10px;
+    border-radius: 20px;
+}
+img:hover {
+    transform:scale(1.1);
+}
+p {
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+}
+.button:hover {
+    background-color: white;
+    color:black;
+}
+.button {
+    transition-duration: 1s;
+    border-radius: 10px;
+}
+.firstpara {
+    background-color: white;
+    width: 800px 1500px;
+    line-height: 30px;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 20px;
+    margin-right: 20px;
+    margin-left: 30px;
+    float: left;
+    z-index: 1;
+}
+
+#firstimage {
+    float: left;
+}
+#secondimage {
+    float: right;
+}
+.secondpara {
+    background-color: rgb(158, 119, 69);
+    width: 800px 1500px;
+    margin-top: 300px;
+    margin-left: 30px;
+    margin-right: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    color: white;
+    line-height: 50px;
+    font-size: 20px;
+}
+.centerimage {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.box {
+    width: 25%;
+    height: 310px;
+    display: inline-flex;
+    border-radius: 20px;
+    margin-left: 5%;
+    border: 2px solid black;
+    padding: 10px;
+    
+}
+.one {
+    background-color: white;  
+}
+.two {
+    background-color: white;
+}
+.three {
+    background-color: white;
+}
+.four {
+    background-color: antiquewhite;
+}
+.five {
+    background-color: antiquewhite;
+}
+.six {
+    background-color: antiquewhite;
+}
+
+.smallpara {
+    float: left;
+}
+.secondstyle {
+    text-align: center;
+    font-size: 30px;
+    font-family: "Graduate", serif;
+}
+#mikey {
+    height: 500px;
+    width: 380px;
+    border: 0px;
+    margin-left: 70px;
+    
+}
+#foot {
+    background-color: black;
+    height: 60px;
+    background-color: black;
+    width: auto;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    align-items: flex-end;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
