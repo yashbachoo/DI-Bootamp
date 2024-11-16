@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: #eee;
+  }
+
+  .center {
+    text-align: center;
+  }
+  h1 {
+  
+    font-size: 50px;
+    line-height: 110%;
+    margin: 10px;
+  }
+  .blue-text {
+    color: #2196F3;
+  }
+
+  .todo-app {
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 10px 20px;
+  }
+  
+  .todo-app{
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 10px 20px 10px;
+  }
+  
+  .collection-item{
+    background: #fff;
+  }
+  .collection .collection-item{
+    padding: 10px 20px;
+    margin: 0;
+    border-bottom: 1px solid white;
+    line-height: 1.5rem;
+  }
+  
+  .collection-item span:hover{
+    cursor: pointer;
+    text-decoration: line-through;
+  }
+  
+  form{
+    margin: 20px 10px;
+  }
+  
+  .collection .item-item {
+    background-color: #fff;
+    line-height: 1.5rem;
+    padding:10px 20px;
+    margin: 0;
+    border-bottom: 1px solid white;
+}
+
+.collection-item {
+    background: white;
+
+} 
+
+label {
+    font-size: .8rem;
+    color: #9e9e9e;
+    cursor: default;
+
+}
+input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #9e9e9e;
+    border-radius: 0;
+    outline: none;
+    height: 3rem;
+    width: 100%;
+    font-size: 16px;
+    margin: 0 0 8px 0;
+    padding: 0;
+    box-shadow: none;
+    box-sizing: content-box;
+    transition: box-shadox .3s, border .3s, -webkit-box-shadow .3s;
+}
